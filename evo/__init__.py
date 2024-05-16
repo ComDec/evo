@@ -1,6 +1,5 @@
-from .version import version as __version__
-
-from .models import Evo
-
 from .generation import generate
-from .scoring import score_sequences, positional_entropies
+from .models import Evo
+from .scoring import positional_entropies, score_sequences
+from .tokenizer import CharLevelTokenizer
+from .version import version as __version__
